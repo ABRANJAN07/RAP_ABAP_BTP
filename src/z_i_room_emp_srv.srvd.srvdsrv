@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service def for room emp'
+define service Z_I_ROOM_EMP_SRV {
+  expose Z_I_ROOM_EMP as Room;
+}

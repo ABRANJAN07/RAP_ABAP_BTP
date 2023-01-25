@@ -1,0 +1,11 @@
+@EndUserText.label: 'Room'
+@MappingRole: true
+define role Z_I_ROOM_EMP {
+    grant 
+        select
+            on
+                Z_I_ROOM_EMP
+                    where
+                        (location) = aspect pfcg_auth(Z_LOCAOEMP, Z_LOCAFEMP, ACTVT = '03');
+                        
+}

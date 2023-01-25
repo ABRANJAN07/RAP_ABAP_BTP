@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for Emp Data'
+define service ZMM_EMP_SRV {
+  expose Z_C_MMEMP_DATA;
+}
